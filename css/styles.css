@@ -1,0 +1,266 @@
+/* Global Style */
+html{
+    box-sizing:border-box; 
+   }
+   *, *:before, *:after {
+     box-sizing: inherit;
+   }
+   
+   body {
+     color: #343434;
+     margin: 0;
+     padding: 0;
+     font-size: 20px;
+     line-height: 2;
+     word-break:normal;
+   }
+
+   .clear {
+     clear: both;
+   }
+   a {
+   /*   color: #FFE66D; */
+     text-decoration:none;
+     color: grey;
+   }
+   a:hover {
+     text-decoration-line: underline;
+     text-decoration-color: red;
+     text-decoration-style: dashed;
+   }
+   img{ 
+    border-radius:100px;
+   }
+
+   
+   /*Project*/
+   .project {
+     background: #F7FFF7;
+   }
+   .project a {
+     color: #2F3061;
+   }
+   .project .btn {
+     color: #F7FFF7;
+     background: #2F3061;
+     text-decoration: none;
+     padding: 8px;
+     border-radius: 4px;
+     display: inline-block;
+   }
+   .project .btn:hover {
+     background: rgba(47, 48, 97, 80%);
+   }
+   .project-item {
+     overflow: hidden;
+   }
+
+
+   
+   /* blog*/
+   .blog {
+     background: #F7FFF7;
+   }
+   .blog a {
+     color: #2F3061;
+   }
+
+   .blog .btn {
+     color: #F7FFF7;
+     background: #2F3061;
+     text-decoration: none;
+     padding: 8px;
+     border-radius: 4px;
+     display: inline-block;
+   }
+   .blog .btn:hover {
+     background: rgba(47, 48, 97, 80%);
+   }
+   .flex-container{
+    /* display:inline-flex; */
+    flex-direction: column; 
+    background: #F7FFF7;
+    padding:0 auto;
+    flex-wrap: nowrap;
+
+   }
+  .flex-item{
+    flex:1 1 100%;
+    padding-left: 100px;
+    margin:auto;
+    height:200px;
+    border-bottom: 1px dashed #343434;
+  }
+  .flex-item p a {
+   padding:20px;
+   
+ }
+
+  
+  .divider > section {
+    
+    padding: 25px 0;
+  }
+  
+  section img{
+    float:left;
+    max-width:300px;
+    height:auto;
+    /* border-style: dotted; */
+    padding-bottom: 20px;
+    border-radius: 100px;
+  }
+  h1 {
+    font-size: 100px;
+    line-height: 1;
+  }
+  
+  h2 {
+    font-size: 45px;
+  }
+  
+  header h2 {
+    font-size: 30px;
+    padding:30px 0;
+  }
+  .content-wrap {
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+  }
+  
+  h1, h2 {
+  /*needfonts*/
+  /*   font-family: 'Caveat', cursive; */
+    font-weight: 400;
+    margin: 0;
+  }
+  /*protrait*/
+  aside{
+    max-width:180px;
+    height:auto;
+    float:left;
+    margin:30px;
+    
+  /*   padding:30px; */
+ }
+ div aside  {
+   width:300px;
+   float:left;
+   /* margin:10px; */
+ }
+ div aside img {
+   max-width: 300px;
+   
+   /* height:auto; */
+ }
+  /* Profile */
+  header {
+    background: #2F3061;
+    color: #F7FFF7;
+    text-align: center;
+  }
+  p.firstline::first-line{
+    font-variant: small-caps;}
+
+
+@media (max-width:799px) {
+  .flex-container{
+    /* display:inline-flex; */
+    flex-direction: column; 
+    background: #F7FFF7;
+    padding:0 auto;
+    flex-wrap: nowrap;
+
+   }
+  .flex-item{
+    flex:1 1 100%;
+    padding-left: 100px;
+    margin:auto;
+    height:250px;
+    border-bottom: 1px dashed #343434;
+  }
+  .flex-item p a {
+   padding-left:20px;
+   text-align: center;
+   /* text-indent:0%;    */
+   text-wrap: nowrap;
+ }
+
+  
+  .divider > section {
+    
+    padding: 25px 0;
+  }
+  
+  section img{
+    float:left;
+    max-width:180px;
+    height:auto;
+    /* border-style: dotted; */
+    /* padding-bottom: 20px; */
+    border-radius: 100px;
+  }
+  h1 {
+    font-size: 70px;
+    line-height: 1;
+  }
+  
+  h2 {
+    font-size: 25px;
+  }
+  
+  header h2 {
+    font-size: 30px;
+    padding:30px 0;
+  }
+  .content-wrap {
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+  }
+  
+  h1, h2 {
+  /*needfonts*/
+  /*   font-family: 'Caveat', cursive; */
+    font-weight: 400;
+    margin: 0;
+  }
+  /*protrait*/
+  aside{
+    max-width:180px;
+    height:auto;
+    float:left;
+    margin:30px;
+    
+  /*   padding:30px; */
+ }
+ div aside  {
+   width:300px;
+   float:left;
+   /* margin:10px; */
+ }
+ div aside img {
+   width: 400px;
+   
+   /* height:auto; */
+ }
+  /* Profile */
+  header {
+    background: #2F3061;
+    color: #F7FFF7;
+    text-align: left;
+  }
+  .blog .btn {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin:10px;
+  }
+
+  body {
+    font-size: 15px;
+  }
+}
